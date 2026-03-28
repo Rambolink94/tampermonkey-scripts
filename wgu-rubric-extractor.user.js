@@ -68,6 +68,8 @@
         const win = document.createElement('div');
         win.style.cssText = `
             position: fixed;
+            display: flex;
+            flex-direction: column;
             resize: horizontal;
             overflow: hidden;
             bottom: 0px;
